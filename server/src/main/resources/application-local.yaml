@@ -9,11 +9,11 @@ spring:
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:mysql://localhost:3306/template?serverTimezone=Asia/Seoul
-#    username: root
-#    password: 'xcz119'
+#    username: admin
+#    password: 'rhkreodid'
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://testdbms.cwhwqtlljfje.ap-northeast-2.rds.amazonaws.com:3306/testdbms?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://myselfdb.cwhwqtlljfje.ap-northeast-2.rds.amazonaws.com:3306/myselfdb?serverTimezone=Asia/Seoul
     username: admin
     password: 'rhkreodid'
   vonage:
